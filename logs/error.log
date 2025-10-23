@@ -567,3 +567,49 @@
 2023-08-07T06:00:09.477Z-error: Failed to delete doctor from service
 2023-08-07T06:01:14.015Z-error: Failed to update patient from service
 2023-08-07T06:01:14.028Z-error: Failed to delete patient from service
+2025-08-29T05:11:08.088Z-error: Failed to get appointment from service
+2025-08-29T05:11:08.115Z-error: Failed to update appointment from service
+2025-08-29T05:11:08.122Z-error: Failed to delete Appointment from service
+2025-08-29T05:11:08.441Z-error: Record has not found yet
+2025-08-29T05:11:08.466Z-error: Internal Server Error
+2025-08-29T05:11:08.473Z-error: Failed updating patient in controller
+2025-08-29T05:11:08.477Z-error: Internal Server Error
+2025-08-29T05:11:08.495Z-error: Internal Server Error
+2025-08-29T05:11:08.591Z-error: Internal Server Error
+2025-08-29T05:11:08.630Z-error: Internal Server Error
+2025-08-29T05:11:08.643Z-error: Record has not found yet
+2025-08-29T05:11:08.659Z-error: Internal Server Error
+2025-08-29T05:11:08.681Z-error: Failed updating appointment in controller
+2025-08-29T05:11:08.694Z-error: Failed to delete Appointment
+2025-08-29T05:11:09.078Z-error: Failed to update patient from service
+2025-08-29T05:11:09.088Z-error: Failed to delete patient from service
+2025-08-29T05:11:09.216Z-error: Record has not found yet
+2025-08-29T05:11:09.221Z-error: Internal Server Error
+2025-08-29T05:11:09.227Z-error: Failed updating doctor in controller
+2025-08-29T05:11:09.245Z-error: Internal Server Error
+2025-08-29T05:11:09.252Z-error: Internal Server Error
+2025-08-29T05:11:09.296Z-error: Failed to update doctor from service
+2025-08-29T05:11:09.303Z-error: Failed to delete doctor from service
+2025-10-19T18:59:47.109Z-error: Internal Server Error
+2025-10-19T18:59:47.144Z-error: Internal Server Error
+2025-10-19T18:59:47.151Z-error: Record has not found yet
+2025-10-19T18:59:47.155Z-error: Internal Server Error
+2025-10-19T18:59:47.161Z-error: Failed updating appointment in controller
+2025-10-19T18:59:47.167Z-error: Failed to delete Appointment
+2025-10-19T18:59:47.358Z-error: Failed to get appointment from service
+2025-10-19T18:59:47.562Z-error: Record has not found yet
+2025-10-19T18:59:47.632Z-error: Internal Server Error
+2025-10-19T18:59:47.655Z-error: Failed updating patient in controller
+2025-10-19T18:59:47.668Z-error: Internal Server Error
+2025-10-19T18:59:47.680Z-error: Internal Server Error
+2025-10-19T18:59:47.402Z-error: Failed to update appointment from service
+2025-10-19T18:59:47.411Z-error: Failed to delete Appointment from service
+2025-10-19T18:59:48.113Z-error: Failed to update patient from service
+2025-10-19T18:59:48.126Z-error: Failed to delete patient from service
+2025-10-19T18:59:48.397Z-error: Failed to update doctor from service
+2025-10-19T18:59:48.410Z-error: Failed to delete doctor from service
+2025-10-19T18:59:48.517Z-error: Record has not found yet
+2025-10-19T18:59:48.532Z-error: Internal Server Error
+2025-10-19T18:59:48.536Z-error: Failed updating doctor in controller
+2025-10-19T18:59:48.539Z-error: Internal Server Error
+2025-10-19T18:59:48.543Z-error: Internal Server Error

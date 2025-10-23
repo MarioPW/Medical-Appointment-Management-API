@@ -4,7 +4,10 @@
   "description": "modulo 6",
   "main": "src/app.ts",
   "scripts": {
-    "migrate": "npx knex migrate:latest --knexfile bd/knexfile.ts",
+    "dev": "ts-node src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "migrate": "npx knex migrate:latest --knexfile src/db/knexfile.ts",
     "migrate:down": "npx knex migrate:down --knexfile src/db/knexfile.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,23 +29,24 @@
   },
   "homepage": "https://github.com/MarioPW/hospital-page-backend#readme",
   "dependencies": {
-    "@types/express": "^4.17.17",
-    "express": "^4.18.2",
-    "joi": "^17.9.2",
-    "typescript": "^5.1.3",
-    "winston": "^3.9.0"
+    "@types/express": "4.17.17",
+    "express": "4.21.2",
+    "joi": "17.9.2",
+    "jsonwebtoken": "9.0.2",
+    "typescript": "5.1.3",
+    "winston": "3.9.0"
   },
   "devDependencies": {
-    "@types/chai": "^4.3.5",
-    "@types/chai-http": "^4.2.0",
-    "@types/chai-spies": "^1.0.3",
-    "@types/jest": "^29.5.2",
-    "dotenv": "^++16.1.4",
-    "jest": "^29.5.0",
-    "knex": "^2.4.2",
-    "knex-cli": "^1.0.2",
-    "pg": "^8.11.0",
-    "ts-jest": "^29.1.0",
-    "ts-node": "^10.9.1"
+    "@types/chai": "4.3.5",
+    "@types/chai-http": "4.2.0",
+    "@types/chai-spies": "1.0.3",
+    "@types/jest": "29.5.2",
+    "@types/jsonwebtoken": "^9.0.10",
+    "dotenv": "16.1.4",
+    "jest": "29.5.0",
+    "knex": "2.4.2",
+    "pg": "8.11.0",
+    "ts-jest": "29.1.0",
+    "ts-node": "10.9.1"
   }
 }
