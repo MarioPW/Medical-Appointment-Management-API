@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 if (!process.env.DB_PASSWORD) {
-  throw new Error("⚠️ DB_PASSWORD no está definido en el archivo .env");
+  throw new Error("⚠️ DB_PASSWORD is not defined in the .env file");
 }
 
 export const db = knex({
