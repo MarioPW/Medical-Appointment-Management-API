@@ -2,11 +2,13 @@ import { db } from "../../../db/database"
 import { Patient, PatientReq,  } from "./model"
 import logger from '../../../utils/logger'
 import { CustomError } from "../../../utils/customErrors"
+import { v4 as uuidv4 } from 'uuid';
 
 export class PatientRepository {
     public async createPatient(patient: PatientReq): Promise<Patient> {
         try {
-            const [createdPatient] =  await db('patients').insert(patient).returning('*') 
+            const newPatient = { ...patient, patient_id: uuidv4() }
+            const [createdPatient] =  await db('patients').insert(newPatient).returning('*') 
             return createdPatient
         } catch (error) {
             throw new CustomError ( 'CreationError', 'Failed to create patient in repository', 'patients')

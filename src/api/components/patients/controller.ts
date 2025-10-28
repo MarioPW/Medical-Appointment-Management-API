@@ -1,4 +1,3 @@
-import { Patient } from './model'
 import { Request, Response } from 'express'
 import { PatientService } from './service'
 import logger from '../../../utils/logger'
