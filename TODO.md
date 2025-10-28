@@ -1,4 +1,6 @@
 [ ] Implement auth system.
-    - [ ] Adapt component models.
-        - [ ] Improve validations.
+    - [✔] Add authentication & authorization middlewares.
+    - [NN] Adapt component models.
+    - [NN] Improve validations.  
+
 [ ] Implement dashboard.
